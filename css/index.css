@@ -1,0 +1,253 @@
+/* GENERAL STYLES */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100);
+
+*, html, body, ::before, ::after {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none outside none;
+}
+
+/* MAIN CONTAINER STYLES */
+.container {
+    background: white;
+    width: 97%;
+    margin: 0 auto;
+}
+
+/* FIXED BACKGROUND STYLES */
+.fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* NAVIGATION BAR STYLES */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 97%;
+    margin: 0 auto;
+    height: 50px;
+    background: white;
+    z-index: 99999;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav ul {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.nav li {
+    float: left;
+    display: inline;
+    line-height: 50px;
+    text-align: center;
+    width: 100px;
+}
+
+.nav a {
+    width: 100px;
+}
+
+.nav a:hover {
+    color: #6EBEC5;
+}
+
+/* BIG BANNER STYLES */
+.banner {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: /*#33323A*/#3A414C;
+}
+
+.banner-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner-container h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+    color: #6EBEC5;
+}
+
+.banner-container p {
+    font-size: 24px;
+}
+
+/* SECTION ONE (ABOUT US) STYLES */
+.section-one {
+    width: 100%;
+    margin: 0 auto;
+    background: #272D35;
+}
+
+.section-one-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0 75px 0;
+    text-align: justify;
+    color: #838B99;
+    line-height: 2;
+    letter-spacing: 1.2px;
+}
+
+.section-one-container h1 {
+    font-size: 45px;
+    color: #6EBEC5;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #838B99;
+}
+
+.section-one-container p {
+    font-size: 18px;
+}
+
+/* SECTION TWO (TEAM) STYLES */
+.section-two {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+}
+
+.section-two-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 75px 0;
+    text-align: justify;
+    color: #838B99;
+    line-height: 2;
+    letter-spacing: 1.2px;
+}
+
+.player {
+    float: left;
+    width: 33.3333%;
+    padding: 10px;
+}
+
+.player-pic {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.matt-simm .player-pic {
+    background-image: url('../images/matt_simm.jpg');
+}
+
+.josh-boothman .player-pic {
+    background-image: url('../images/josh_boothman.jpg');
+}
+
+.gaz-bernard .player-pic {
+    background-image: url('../images/gaz_bernard.jpg');
+}
+
+.danny-wilson .player-pic {
+    background-image: url('../images/danny_wilson.jpg');
+    background-position: right;
+}
+
+.michael-jones .player-pic {
+    background-image: url('../images/michael_jones.jpg');
+}
+
+.callum-atkinson .player-pic {
+    background-image: url('../images/callum_atkinson.jpg');
+}
+
+.david-boys .player-pic {
+    background-image: url('../images/david_boys.jpg');
+}
+
+.player-profile {
+    padding: 0 10px;
+}
+
+.player-profile h1 {
+    font-size: 22px;
+    color: #6EBEC5;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #838B99;
+}
+
+.player:hover .player-profile {
+    background: #F3F4F4;
+}
+
+/* SECTION THREE (CONTACT US) STYLES */
+.section-three {
+    clear: both;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    background: #3A414C;
+}
+
+.section-three-container {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: justify;
+    color: #838B99;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.section-three-container ul {
+    float: right;
+    width: 50%;
+}
+
+.section-three-container li {
+    float: left;
+    width: 33.3333%;
+    display: inline;
+    line-height: 50px;
+    text-align: center;
+}
+
+.section-three-container a {
+    color: white;
+    display: block;
+}
+
+.section-three-container a:hover {
+    background: #6EBEC5;
+}
+
+/* PAGE FOOTER STYLES */
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin: 0 auto;
+    height: 20px;
+    background: white;   
+    z-index: 99999;
+}
