@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+    
+    .section-two-container {
+        width: 80%;
+    }
+    
+    .player {
+        width: 100%;
+    }
+}
