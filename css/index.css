@@ -115,11 +115,33 @@ li {
     letter-spacing: 1.2px;
 }
 
+.add-info {
+    margin-top: 50px;
+    height: 250px;
+}
+
+.club-info, .club-awards {
+    float: left;
+    width: 49%;
+}
+
+.club-info {
+    margin-right: 2%;
+}
+
 .section-one-container h1 {
     font-size: 45px;
     color: #6EBEC5;
     text-transform: uppercase;
     margin-bottom: 50px;
+    border-bottom: 1px solid #838B99;
+}
+
+.section-one-container h2 {
+    font-size: 30px;
+    color: #6EBEC5;
+    text-transform: uppercase;
+    margin-bottom: 25px;
     border-bottom: 1px solid #838B99;
 }
 
@@ -138,7 +160,7 @@ li {
 }
 
 .player-nav ul {
-    width: 900px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -161,6 +183,7 @@ li {
 }
 
 .section-two {
+    clear: both;
     width: 100%;
     margin: 0 auto;
     background: white;
@@ -237,7 +260,7 @@ li {
 .section-three {
     clear: both;
     width: 100%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto /*20px*/0 auto;
     background: #3A414C;
 }
 
@@ -245,19 +268,17 @@ li {
     width: 80%;
     height: 50px;
     margin: 0 auto;
-    text-align: justify;
     color: #838B99;
     text-transform: uppercase;
 }
 
 .section-three-container ul {
-    float: right;
-    width: 50%;
+    width: 150px;
 }
 
 .section-three-container li {
     float: left;
-    width: 33.3333%;
+    width: 50px;
     display: inline;
     line-height: 50px;
     text-align: center;
@@ -270,6 +291,33 @@ li {
 
 .section-three-container a:hover {
     background: #6EBEC5;
+}
+
+/* SECTION FOUR STYLES */
+.section-four {
+    clear: both;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    background: #5D626A;
+}
+
+.section-four-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    margin: 0 auto;
+    color: #838B99;
+    text-transform: uppercase;
+}
+
+.section-four-container p {
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.section-four-container a {
+    color: #6EBEC5;
 }
 
 /* PAGE FOOTER STYLES */

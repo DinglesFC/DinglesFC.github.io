@@ -1,5 +1,6 @@
 @media screen and (max-width: 900px) {
     
+    
     .section-two-container {
         width: 90%;
     }
@@ -8,7 +9,7 @@
         width: 50%;
     }
     
-    .section-three-container {
+    .player-nav, .section-three-container {
         font-size: 75%;
     }
     
